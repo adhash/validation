@@ -1,21 +1,17 @@
 # Form Validation jQuery Plugin ver.1.0
 
 ##### Example:
-<br/>
 `$(form_selector).validation({ options });`
 
 ##### form_selector: 
-<br/>
 `'form', '.form', '#form';`
 ##### Options:
-<br/>
 ```
 event        : 'blur' || 'keyup' || 'focus'; //etc.
 errorClass   : 'class_name'; //(error message class name)
 invalidClass : 'class_name'; //(invalid input class name)
 ```
 ##### HTML:
-<br/>
 ```
 <form>
   <label>Enter Email</label>
