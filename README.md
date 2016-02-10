@@ -26,7 +26,7 @@ invalidClass : 'class_name'; //(invalid input class name)
          id="email1" 
          data-val="email" 
          data-val-msg="Please enter valid email adress">
-  <label>Reapeat Email</label>
+  <label>Repeat Email</label>
   <input type="text" 
          id="email2" 
          data-val-compare="#email1" 
@@ -49,7 +49,7 @@ Plugin have some build in regex patterns but you can provide your own patterns. 
 and then you can simply use it as shown below:
 ```html
 <form>
-  <input type="text" data-valid="regex_name">
+  <input type="text" data-val="regex_name">
 </form>
 ```
 remeber to include custom_patterns.js before validation.js. First load patterns then validate:
