@@ -1,8 +1,7 @@
 # Form Validation jQuery Plugin ver.1.0
 
-1. Lightweight (5.51 kB)
-2. Simple,
-3. Powerful.
+### Lightweight (5.51 kB), simple, powerful.
+
 ##### Example:
 
 ```js
