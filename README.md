@@ -1,10 +1,18 @@
 # Form Validation jQuery Plugin ver.1.0
 
+1. Lightweight (5.51 kB)
+2. Simple,
+3. Powerful.
 ##### Example:
-`$(form_selector).validation({ options });`
+
+```js
+$(form_selector).validation({ options });
+```
 
 ##### form_selector: 
-`'form', '.form', '#form';`
+```js
+'form', '.form', '#form';
+```
 ##### Options:
 ```js
 event        : 'blur' || 'keyup' || 'focus'; //etc.
