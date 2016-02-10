@@ -33,7 +33,7 @@ invalidClass : 'class_name'; //(invalid input class name)
          data-val-msg="Emails don`t match">
 </form>
 ```
-Plugin have two usefull methods:
+Plugin have two useful methods:
 ```js
 $(form_selector).isvalid(); //(returns true or false)
 $(input_selector).validate(); //(validate provide manual validation, usefull when inputs values are being set dynamiclly.) 
